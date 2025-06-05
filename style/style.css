@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bodi{
+    background-color: rgb(11, 24, 139);
+}
+.konteineri{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.charcho{
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    margin-top: 120px;
+    background-color: rgba(161, 183, 245, 0.2);
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+.charcho:hover{
+    box-shadow: 0 0 10px rgba(101, 138, 240, 0.5);
+    transform: scale(1.05);
+}
+.poto{
+    width: 100px;
+    margin-top: 30px;
+}
+@keyframes swing{
+    20%{transform: rotate(15deg);}
+    40%{transform: rotate(10deg);}
+    60%{transform: rotate(5deg);}
+    80%{transform: rotate(-5deg);}
+    100%{transform: rotate(0);}
+
+}
+@font-face {
+    font-family: pixel;
+    src: url(../fonts/PixelifySans-VariableFont_wght.ttf);
+}
+.tommyquote{
+    text-align: center;
+    font-family: 'pixel';
+    font-size: 35px;
+    font-weight: bold;
+}
+.singrequest{
+    text-align: center;
+    font-family: 'pixel';
+    font-weight: bold;
+}
+.mic{
+    width: 50px;
+    animation: swing 1.2s infinite;
+}
+@media (max-width: 700px) {
+    .charcho{
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin-top: 200px;
+    }
+    .poto{
+        width: 80px;
+        margin-top: 20px;
+    }
+    .tommyquote{
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+    }
+    .singrequest{
+        font-size: 15px;
+        text-align: center;
+    }
+    .mic{
+        width: 35px;
+    }
+}

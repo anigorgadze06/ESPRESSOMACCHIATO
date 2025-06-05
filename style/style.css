@@ -63,8 +63,8 @@
     .charcho{
         width: 90%;
         height: auto;
-        padding: 20px;
-        margin-top: 200px;
+        padding: 18px;
+        margin-top: 140px;
     }
     .poto{
         width: 80px;
@@ -76,7 +76,7 @@
         padding: 10px;
     }
     .singrequest{
-        font-size: 15px;
+        font-size: 12px;
         text-align: center;
     }
     .mic{
